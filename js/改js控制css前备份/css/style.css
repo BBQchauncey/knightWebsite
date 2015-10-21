@@ -1,0 +1,524 @@
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+	padding: 0;
+	margin: 0 auto;
+	/*min-width: 1080px;*/
+	
+	font-family: "微软雅黑";
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	/*overflow-x: hidden;*/
+}
+img {
+	display: block;
+	border: none;
+	width: 100%;
+}
+a {
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 70vw;
+}
+#introPics table tr:nth-child(2) td:nth-child(1) {
+	background: url(../images/pic4.jpg) no-repeat;
+	background-size: 100%;
+}
+td {
+	border: none;
+	text-align: center;
+}
+.tdCtx1 {
+	text-align: left;
+	width: 80%;
+	/*border: 1px solid red;*/
+	
+	margin: 0 auto;
+	color: white;
+}
+.tdCtx {
+	text-align: left;
+	width: 80%;
+	/*border: 1px solid red;*/
+	
+	margin: 0 auto;
+	color: #9d9d9d;
+}
+/*td:nth-child(1){
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+td:hover{
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	
+}*/
+.tdHead {
+	/*color:#9d9d9d;*/
+	/*font-size: 33px;*/
+	
+	font-size: 2.5vw;
+	font-weight: 900;
+}
+.tdCtxContent {
+	/*color:#9d9d9d;*/
+	/*font-size: 18px;*/
+	
+	font-size: 1.2vw;
+	font-weight: 900;
+	/*margin-top: 10px;*/
+	
+	margin-top: 1vw;
+}
+/*网页头部*/
+
+#navigation {
+	width: 100%;
+	/*width: 100vw;*/
+	
+	height: 5vw;
+	line-height: 5vw;
+	background-color: #1c1c1c;
+	/*min-height: 80px;
+	line-height: 80px;*/
+}
+#navigationShowArea {
+	/*width: 80%;*/
+	
+	width: 80vw;
+	/*background-color: red;*/
+	
+	margin: 0 auto;
+}
+#logoImg {
+	width: 16vw;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 4vw;
+}
+#headTel {
+	margin-left: 44vw;
+	width: 10vw;
+	display: inline-block;
+	vertical-align: middle;
+	/*border: 1px solid red;*/
+}
+#telImg {
+	/*width: 15%;*/
+	
+	width: 0.6vw;
+	display: inline-block;
+	vertical-align: middle;
+}
+#telTxt {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1vw;
+}
+#telTxt a {
+	color: #b4c1d9;
+}
+/*app介绍*/
+
+#introPicWrap {
+	background-color: #dedee6;
+}
+#slideArea {
+	background: url(../images/slidePic.jpg) no-repeat;
+	background-size: 100%;
+	/*width: 80%;*/
+	
+	width: 80vw;
+	height: 32.8vw;
+	margin: 0 auto;
+}
+#introPicDescription {
+	/*width: 40%;*/
+	
+	width: 32vw;
+	color: white;
+	text-align: right;
+	font-size: 1.3vw;
+	line-height: 2.4vw;
+	padding-left: 40vw;
+	padding-top: 6vw;
+}
+#downBtn {
+	border: 3px solid white;
+	text-align: center;
+	/*width: 25%;
+	height: 20%;*/
+	
+	width: 20vw;
+	height: 7vw;
+	line-height: 3vw;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	margin-left: 50vw;
+	margin-top: 6vw;
+	cursor: pointer;
+}
+#downAPP {
+	font-size: 2.7vw;
+	margin-top: 0.5vw;
+}
+#downDescription {
+	font-size: 1.2vw;
+}
+/*骑马app介绍文字头*/
+
+#introLogo {
+	/*width: 8%;*/
+	
+	width: 7vw;
+	margin: 0 auto;
+}
+#introLine {
+	text-align: center;
+	/*margin-top:20px ;*/
+	
+	margin-top: 2vw;
+}
+#line1 {
+	border-top: 1px solid #6a6a6a;
+	/*width: 20%;*/
+	
+	width: 20vw;
+	display: inline-block;
+	vertical-align: middle;
+}
+#lineTxt {
+	display: inline-block;
+	vertical-align: middle;
+	/*margin: 0 10px;*/
+	
+	margin: 0 2vw;
+	/*font-size: 20px;*/
+	
+	font-size: 1.5vw;
+	font-weight: 900;
+}
+#line2 {
+	border-top: 1px solid #6a6a6a;
+	/*width: 20%;*/
+	
+	width: 20vw;
+	display: inline-block;
+	vertical-align: middle;
+}
+#introTxt {
+	color: #888888;
+	text-align: center;
+	/*margin-top: 10px;*/
+	
+	margin-top: 1vw;
+	font-size: 1vw;
+}
+#introPics {
+	/*margin-top:30px ;*/
+	
+	margin-top: 3vw;
+}
+/*骑马app介绍文字尾*/
+
+#introTxtEnd {
+	/*margin-top: 100px;*/
+	
+	margin-top: 8vw;
+	text-align: center;
+}
+#introTxtEndLine1 {
+	border-top: 1px solid #6a6a6a;
+	/*width: 20%;*/
+	
+	width: 20vw;
+	display: inline-block;
+	vertical-align: middle;
+}
+#introTxtEndLineTxt {
+	display: inline-block;
+	vertical-align: middle;
+	/*margin: 0 10px;
+	font-size: 20px;*/
+	
+	margin: 0 2vw;
+	font-size: 1.5vw;
+	font-weight: 900;
+}
+#introTxtEndLine2 {
+	border-top: 1px solid #6a6a6a;
+	/*width: 20%;*/
+	
+	width: 20vw;
+	display: inline-block;
+	vertical-align: middle;
+}
+/*网页脚*/
+
+#footer {
+	/*margin-top: 100px;*/
+	
+	margin-top: 8vw;
+	background-color: #1f2228;
+	/*height: 400px;*/
+	
+	height: 30vw;
+}
+#scanImg {
+	text-align: center;
+	/*border: 1px solid red;*/
+	/*padding-top: 90px;*/
+	
+	padding-top: 6vw;
+}
+#gongzonghao {
+	display: inline-block;
+	vertical-align: middle;
+	/*border: 1px solid red;*/
+}
+#weibo {
+	display: inline-block;
+	vertical-align: middle;
+	/*border: 1px solid red;*/
+	/*margin-left:80px ;*/
+	
+	margin-left: 5vw;
+}
+.erWeiMaImg {
+	/*width: 90%;*/
+	
+	width: 8vw;
+	margin: 0 auto;
+}
+.erWeiMaTxt {
+	color: white;
+	font-size: 1.2vw;
+	margin-top: 5px;
+}
+/*友情链接*/
+
+#friendLink {
+	color: #909da6;
+	text-align: center;
+	/*margin-top: 50px;*/
+	
+	margin-top: 3vw;
+	font-size: 1.2vw;
+}
+.friendLinkAddres:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#copyRight {
+	color: #909da6;
+	text-align: center;
+	/*margin-top: 20px;*/
+	
+	margin-top: 2vw;
+	font-size: 1.2vw;
+}
+#footerTel {
+	text-align: center;
+	/*margin-top: 20px;*/
+	
+	margin-top: 1.5vw;
+}
+#footerTelImg {
+	/*border: 1px solid red;*/
+	
+	display: inline-block;
+	/*width:2%;*/
+	
+	width: 0.8vw;
+	vertical-align: middle;
+}
+#footerTelTxt a {
+	color: white;
+	vertical-align: middle;
+	/*font-size: 30px;*/
+	
+	font-size: 1.8vw;
+}
+/*media check*/
+
+@media only screen and (max-width: 1080px) {
+	table {
+		width: 100vw;
+	}
+	.tdCtx1 {
+		width: 80%;
+	}
+	.tdCtx {
+		width: 80%;
+	}
+	.tdHead {
+		font-size: 6vw;
+	}
+	.tdCtxContent {
+		font-size: 0.5vw;
+		margin-top: 1vw;
+	}
+	/*网页头部*/
+	
+	#navigation {
+		width: 100%;
+		height: 15vw;
+		line-height: 15vw;
+	}
+	#navigationShowArea {
+		width: 90vw;
+		text-align: center;
+		/*border: 1px solid red;*/
+	}
+	#logoImg {
+		width: 30vw;
+		margin-right: 50vw;
+		/*border: 1px solid red;*/
+	}
+	#headTel {
+		margin-left: 16vw;
+		width: 35vw;
+		line-height: 0;
+	}
+	#telImg {
+		width: 2vw;
+		/*border: 1px solid red;*/
+	}
+	#telTxt {
+		font-size: 4vw;
+	}
+	/*app介绍*/
+	
+	#slideArea {
+		background: url(../images/phone.jpg) no-repeat;
+		background-size: 100%;
+		width: 100vw;
+		height: 105.5vw;
+	}
+	#introPicDescription {
+		/*width: 40%;*/
+		
+		width: 90vw;
+		text-align: right;
+		font-size: 7vw;
+		line-height: 10vw;
+		padding-left: 1vw;
+		padding-top: 30vw;
+		/*border: 1px solid white;*/
+	}
+	#downBtn {
+		border: 1px solid white;
+		width: 80vw;
+		height: 23vw;
+		line-height: 23vw;
+		margin-top: 26vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#downAPP {
+		font-size: 10vw;
+		margin-top: 0;
+	}
+	#downDescription {
+		font-size: 0.3vw;
+	}
+	/*骑马app介绍文字头*/
+	
+	#introLogo {
+		/*width: 8%;*/
+		
+		width: 20vw;
+	}
+	#introLine {
+		margin-top: 3vw;
+	}
+	#line1 {
+		width: 10vw;
+	}
+	#lineTxt {
+		margin: 0 2vw;
+		font-size: 4vw;
+	}
+	#line2 {
+		width: 10vw;
+	}
+	#introTxt {
+		margin-top: 4vw;
+		font-size: 4vw;
+		width: 60vw;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+	}
+	#introPics {
+		/*margin-top:30px ;*/
+		
+		margin-top: 6vw;
+	}
+	/*骑马app介绍文字尾*/
+	
+	#introTxtEnd {
+		/*margin-top: 100px;*/
+		
+		margin-top: 8vw;
+		text-align: center;
+	}
+	#introTxtEndLine1 {
+		width: 10vw;
+	}
+	#introTxtEndLineTxt {
+		font-size: 4vw;
+	}
+	#introTxtEndLine2 {
+		width: 10vw;
+	}
+	/*网页脚*/
+	
+	#footer {
+		margin-top: 8vw;
+		height: 65vw;
+	}
+	#scanImg {
+		padding-top: 10vw;
+	}
+	#weibo {
+		margin-left: 13vw;
+	}
+	.erWeiMaImg {
+		width: 23vw;
+	}
+	.erWeiMaTxt {
+		font-size: 3vw;
+		margin-top: 5px;
+	}
+	/*友情链接*/
+	
+	#friendLink {
+		margin-top: 5vw;
+		font-size: 4vw;
+		line-height: 8vw;
+	}
+	#friendLink span:nth-child(5){
+		margin-left: 18vw;
+	}
+	#copyRight {
+		margin-top: 5vw;
+		font-size: 4vw;
+	}
+	#footerTel {
+		margin-top: 3vw;
+	}
+	#footerTelImg {
+		width: 2vw;
+	}
+	#footerTelTxt a {
+		font-size: 4vw;
+	}
+}
